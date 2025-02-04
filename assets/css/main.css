@@ -2073,3 +2073,22 @@ section,
   flex: 0 0 35%; /* 30% width - doesn't properly scale on the phone*/
   padding-right: 40px; /* Optional: Add some space between the image and text */
 }
+
+.tech-stacks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.badge-primary {
+  background-color: #2487ce;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text (if needed) */
+}
